@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蔬菜比價網</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入BT5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <img src="logo (1).jpg" alt="vegetable-price">
+        <div id="middle">
+            <div class="item">
+                <div id="vegetable">
+                    蔬果
+                </div>
+                <div id="fruit">
+                    水果
+                </div>
+                <div id="folwer">
+                    花卉
+                </div>
+            </div>
+            <div class="input-item">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">作物名稱</span>
+                    <input type="text" class="form-control" placeholder="請輸入作物名稱" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div id="search">
+                    搜尋
+                </div>
+            </div>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>排序篩選</option>
+                <option value="1">依上價排序</option>
+                <option value="2">依中價排序</option>
+                <option value="3">依下價排序</option>
+                <option value="3">依平均價排序</option>
+                <option value="3">依交易量價排序</option>
+            </select>
+        </div>
+    </div>
+    <!-- 引入BT5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
