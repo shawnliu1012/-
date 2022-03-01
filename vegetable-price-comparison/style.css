@@ -96,7 +96,7 @@ body {
     width: 27.5%;
 }
 
-.date-input input,
+/* .date-input input, */
 .crop-input input {
     width: 80%;
     border: 2px #899e39 solid;
